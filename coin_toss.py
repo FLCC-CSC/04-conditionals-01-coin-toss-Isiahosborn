@@ -1,21 +1,26 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Isiah Osborn
+# DATE: 2025-10-05
 # BRIEF DESCRIPTION:  
+#   Simulates a coin toss and prints either "Heads" or "Tails" randomly.
+#   Always prints "===== Coin Flipper =====" before the result.
+
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
+
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
 
+def main():
+    print("===== Coin Flipper =====")
+    result = random.choice(["Heads", "Tails"])
+    print(result)
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -27,8 +32,6 @@
 ===== Coin Flipper =====
 Heads
 '''
-
-
 
 '''
 ===== Coin Flipper =====
@@ -43,8 +46,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
-
+Getting the head and tails part to work
 
 
 
@@ -61,7 +63,8 @@ those concepts are required understanding for entry level programming. Reliance 
 like AI and internet sites like Chegg, CourseHero, StackOverflow, and general Google results
 may impede your understanding. Please rate how well you understand the concepts in this lab: 
 [ ] I understand very little about this lab.
-[ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
+[x ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
 [ ] I'm solid. Totally got it.
 '''
+
